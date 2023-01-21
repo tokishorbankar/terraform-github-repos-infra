@@ -1,11 +1,6 @@
-variable "repository_name1" {
+variable "repositories_name" {
   type    = string
-  default = "terraform-testing-repos1"
-}
-
-variable "repository_name2" {
-  type    = string
-  default = "terraform-testing-repos2"
+  default = "terraform-testing-repos"
 }
 
 variable "auto_init" {
