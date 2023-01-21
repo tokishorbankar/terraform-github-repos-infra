@@ -10,6 +10,6 @@ terraform destroy -auto-approve
 
 ## USE
 ```
-terraform apply -var-file="development.tfvars" -auto-approve
-terraform destroy -var-file="development.tfvars" -auto-approve
+terraform apply -var-file="vars/development.tfvars" -auto-approve
+terraform destroy -var-file="vars/development.tfvars" -auto-approve
 ```
