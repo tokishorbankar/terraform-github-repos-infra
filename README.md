@@ -1,6 +1,9 @@
 # terraform-github-repos-infra
 
 ```
+export GITHUB_TOKEN=<personal access token>
+
+```
 terraform init
 terraform plan 
 terraform validate
